@@ -1,0 +1,70 @@
+    body {
+        background: transparent;
+        background-size: cover;
+        font-family: 'Poppins', sans-serif; /* Updated font-family */
+    }
+  .container {
+    display: flex; /* Change to flex display */
+    align-items: center; /* Vertically center the content */
+  }
+  
+  .typed-out {
+    overflow: hidden;
+    border-right: .15em solid rgb(168, 204, 245);
+    white-space: nowrap;
+    animation: typing 1s steps(30, end) forwards;
+    font-size: 2.5rem;
+  }
+
+  h1 {
+    margin-top: 23%;
+    color: rgb(168, 204, 245);
+    font-size: 8rem;;
+    text-align: left;
+  }
+
+  div {
+    color: white;
+    text-align: left;
+  }
+
+  .profile-image {
+    width: 235.5px;
+    height: 348px;
+    margin-top: 23%;
+    margin-left: 50px; /* Add margin to create space between text and image */
+    border: 3px solid white;
+    border-image: linear-gradient(to right, #ffffff, rgb(168, 204, 245));
+    border-image-slice: 1;
+    padding: 5px;
+  }
+
+  section {
+    margin-top: 50px;
+    margin-left: 182px;
+    color: rgb(168, 204, 245);
+    font-size: 2.5rem;;
+    text-align: left;
+  }
+
+  .line-above {
+    border-top: 1px solid rgb(168, 204, 245);
+    margin-top: 23%; /* Adjust the margin as needed */
+    width: 50%; /* Adjust the width as desired */
+    margin-left: auto; /* Center the line horizontally */
+    margin-right: auto; /* Center the line horizontally */
+  }
+
+  .info {
+    margin-top: 25px;
+    margin-right: 182px;
+    color: white;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 40px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
