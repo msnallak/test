@@ -57,7 +57,7 @@
 
   .info {
     margin-top: 25px;
-    margin-right: 182px;
+    margin-right: 282px;
     color: white;
     text-align: left;
     font-size: 1.3rem;
@@ -67,4 +67,28 @@
   @keyframes typing {
     from { width: 0 }
     to { width: 100% }
+  }
+
+  .image-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 282px;
+    margin-right: 75px;
+    border: 3px solid white;
+    border-image: linear-gradient(to right, #ffffff, rgb(168, 204, 245));
+    border-image-slice: 1;
+    padding: 5px;
+  }
+
+  .image-stack img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .linkedin-symbol {
+    width: 20px; /* Adjust the width to your desired size */
+    height: 20px; /* Adjust the height to your desired size */
   }
