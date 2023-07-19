@@ -1,5 +1,6 @@
     body {
-        background: transparent;
+        background: linear-gradient(to bottom, #7488ee, #323ad6);
+        color: #ffffff;
         background-size: cover;
         font-family: 'Poppins', sans-serif; /* Updated font-family */
     }
@@ -49,7 +50,7 @@
 
   .line-above {
     border-top: 1px solid rgb(168, 204, 245);
-    margin-top: 23%; /* Adjust the margin as needed */
+    margin-top: 14%; /* Adjust the margin as needed */
     width: 50%; /* Adjust the width as desired */
     margin-left: auto; /* Center the line horizontally */
     margin-right: auto; /* Center the line horizontally */
@@ -83,12 +84,45 @@
   }
 
   .image-stack img {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 
   .linkedin-symbol {
     width: 20px; /* Adjust the width to your desired size */
     height: 20px; /* Adjust the height to your desired size */
   }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* Adjust the height as needed */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .skill-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .skill-description {
+    margin-top: 10px;
+    color: #ffffff;
+  }
+
+  
+  
