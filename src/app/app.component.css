@@ -312,3 +312,14 @@ img:hover {
   --_p: calc(var(--g)/2);
   --_i: 0s;
 }
+
+#about
+{
+  border-bottom: 6px solid #F8E9A1; /* Replace with your desired underline color */
+  width: 195px
+}
+
+#skills {
+    border-bottom: 6px solid #F76C6C; /* Replace with your desired underline color */
+    display: inline-block;
+  }
