@@ -66,19 +66,13 @@
     text-align: left;
   }
 
-  .about-box{
-    background-color: rgba(247, 108, 108); /* Set the background color with some transparency */
-    padding: 20px; /* Add padding inside the box */
-    border-radius: 8px; /* Rounded corners */ /* Add a subtle box shadow */
-    margin-top: 20px; /* Adjust the margin as needed to create space below the "Skills" section */
-    transition: background-color 0.1s ease-in-out;
-    margin-right: 0px;
-  }
-
-  .about-box:hover {
-    /* background-color: rgb(243, 94, 94);  */
-    
-  }
+  .about-section {
+    padding: 20px;
+    border-radius: 20px; /* Adjust the value as needed to control the corner radius */
+    border: 2px solid #A8D0E6; /* Border color, you can change this to your preferred color */
+    margin: 20px;
+    background-color: #F76C6C; /* Background color, you can change this to your preferred color */
+    text-align: right  }
   
   .line-above {
     border-top: 1px solid #E27D60;
@@ -283,5 +277,38 @@
     }
 
 }
+
+
+img.prof {
+  --b: 8px;  /* border thickness*/
+  --s: 60px; /* size of the corner*/
+  --g: 14px; /* the gap*/
+  --c: #F8E9A1; 
   
-  
+  padding: calc(var(--b) + var(--g));
+  background-image:
+    conic-gradient(from  90deg at top    var(--b) left  var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    var(--_p,0%) var(--_p,0%),
+    calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+  background-size: var(--s) var(--s);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: 
+    background-position .3s var(--_i,.3s), 
+    background-size .3s calc(.3s - var(--_i,.3s));
+}
+img.alt {
+  background-image:
+    conic-gradient(from 180deg at top    var(--b) right var(--b),#0000 25%,var(--c) 0),
+    conic-gradient(from   0deg at bottom var(--b) left  var(--b),#0000 25%,var(--c) 0);
+  background-position:
+    calc(100% - var(--_p,0%)) var(--_p,0%),
+    var(--_p,0%) calc(100% - var(--_p,0%));
+}
+img:hover {
+  background-size: calc(100% - var(--g)) calc(100% - var(--g));
+  --_p: calc(var(--g)/2);
+  --_i: 0s;
+}
