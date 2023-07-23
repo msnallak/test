@@ -328,7 +328,7 @@ img:hover {
 }
 
 .project-card {
-  background: linear-gradient(to bottom right,  #f5e593, #f7ebaf);
+  background: linear-gradient(to bottom right,  #f5e389, #f7e68f);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.202);
@@ -408,30 +408,6 @@ img:hover {
   width: 300px
 }
 
-.resume-button-container {
-  margin-top: 50px;
-}
-
-.resume-button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #f76c6c76;
-  color: #ffffff;
-  border-radius: 4px;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: bold;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.resume-button i {
-  margin-left: 10px;
-}
-
-.resume-button:hover {
-  background-color: #f95c5c; /* Darken the background color on hover */
-}
-
 #skills, #projects {
   position: relative;
   font-size: 2.5rem;
@@ -462,4 +438,80 @@ img:hover {
   height: 6px; /* Adjust the height of the underline */
   background-color: #F8E9A1; /* Replace with your desired underline color */
   border-radius: 0px; /* Adjust the border radius to make the underline ends rounded or squared */
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 333px;
+}
+
+.resume-button .btn {
+  background-color: #F76C6C;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 10px; /* Add margin to create space between the LinkedIn link and the button */
+  display: flex; /* To align the arrow next to the text */
+  align-items: center; /* To vertically center the arrow */
+  font-weight: bold;
+  margin-top:9px;
+}
+
+.resume-button .btn:hover {
+  background-color: #f68e8e;
+}
+
+.resume-button .fas {
+  font-size: 16px; /* Adjust the font size of the arrow */
+  margin-left: 5px; /* Add some space between the text and the arrow */
+}
+
+.page-footer {
+  background: linear-gradient(to bottom right, #F76C6C, #f68e8e); /* Gradient background */
+  color: #ffffff; /* Text color */
+  padding: 40px;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.page-footer h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.page-footer p {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* Add some flair to the footer links */
+.page-footer a {
+  color: #374785;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.page-footer a:hover {
+  color: #16214e;
+}
+
+/* Add a subtle box shadow to the footer */
+.page-footer {
+  box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-custom .nav-link {
+  color: #ffffff !important; /* Replace with desired text color */
+  font-size: 18px; /* Set the default font size */
+  transition: transform 0.3s ease-in-out; /* Add transition for transform */
+}
+
+/* Enlarge the font size on hover */
+.navbar-custom .nav-link:hover {
+  color: #ffffff !important; /* Replace with desired hover text color */
+  transform: scale(1.2); /* Adjust the scaling factor as needed */
 }
