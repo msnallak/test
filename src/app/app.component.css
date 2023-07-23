@@ -72,7 +72,9 @@
     border: 2px solid #A8D0E6; /* Border color, you can change this to your preferred color */
     margin: 20px;
     background-color: #F76C6C; /* Background color, you can change this to your preferred color */
-    text-align: right  }
+    text-align: right;
+    margin-top: 100px;
+   }
   
   .line-above {
     border-top: 1px solid #E27D60;
@@ -514,4 +516,36 @@ img:hover {
 .navbar-custom .nav-link:hover {
   color: #ffffff !important; /* Replace with desired hover text color */
   transform: scale(1.2); /* Adjust the scaling factor as needed */
+}
+
+.overall-container {
+  /* Your existing styles for .overall-container go here */
+  /* outline: 3px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-container {
+  /* Your existing styles for .text-container go here */
+  width:700px;
+  margin-left: 250px
+}
+
+.image-container {
+  margin-top: 145px;
+  margin-right:280px
+  /* Your existing styles for .image-container go here */
+}
+
+.typed-container {
+  text-align: center;
+  padding: 10px 0;
+  margin-left:250px;
+  margin-right:287px
+}
+
+.typed-out {
+  /* Your existing styles for .typed-out go here */
+  color: #ffffff;
 }
