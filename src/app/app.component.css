@@ -73,7 +73,6 @@
     margin: 20px;
     background-color: #F76C6C; /* Background color, you can change this to your preferred color */
     text-align: right;
-    margin-top: 100px;
    }
   
   .line-above {
@@ -524,6 +523,7 @@ img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 38px;
 }
 
 .text-container {
