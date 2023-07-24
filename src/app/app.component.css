@@ -409,7 +409,7 @@ img:hover {
   width: 300px
 }
 
-#skills, #projects {
+#skills, #projects, #work-experience  {
   position: relative;
   font-size: 2.5rem;
   text-align: left; /* Align the headers to the left side */
@@ -436,6 +436,17 @@ img:hover {
   bottom: -6px; /* Adjust the distance of the underline from the text */
   left: 20;
   width: 158px; /* Adjust the width of the underline */
+  height: 6px; /* Adjust the height of the underline */
+  background-color: #F8E9A1; /* Replace with your desired underline color */
+  border-radius: 0px; /* Adjust the border radius to make the underline ends rounded or squared */
+}
+
+#work-experience::before {
+  content: '';
+  position: absolute;
+  bottom: -6px; /* Adjust the distance of the underline from the text */
+  left: 20;
+  width: 330px; /* Adjust the width of the underline */
   height: 6px; /* Adjust the height of the underline */
   background-color: #F8E9A1; /* Replace with your desired underline color */
   border-radius: 0px; /* Adjust the border radius to make the underline ends rounded or squared */
@@ -548,4 +559,65 @@ img:hover {
 .typed-out {
   /* Your existing styles for .typed-out go here */
   color: #ffffff;
+}
+
+/* ... previous code ... */
+
+
+
+/* ... remaining code ... */
+
+/* ... previous code ... */
+
+.timeline {
+  width: 100%;
+  padding: 0px 0;
+  background-color: #f76c6c00;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; /* Added to stack items vertically */
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 200px;
+  padding-right: 200px;
+  margin: 10px 0;
+  width: 100%; /* Added to make each item take up the full width */
+}
+
+/* ... remaining code ... */
+
+
+.timeline-content {
+  background: linear-gradient(to bottom, #ffffff, #eef6fa);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-date {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F76C6C;
+  margin-bottom: 10px;
+}
+
+.timeline h3 {
+  color: #F76C6C;
+  margin-bottom:10px
+}
+
+.timeline h4 {
+  color: #374785;
+}
+
+.timeline p {
+  color: #374785;
+}
+
+.timeline ul {
+  color: #374785;
+  margin-left: 20px;
+  margin-bottom:10px
 }
