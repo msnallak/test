@@ -586,14 +586,22 @@ img:hover {
   width: 100%; /* Added to make each item take up the full width */
 }
 
+
 /* ... remaining code ... */
 
 
 .timeline-content {
-  background: linear-gradient(to bottom, #ffffff, #eef6fa);
+  background: linear-gradient(to bottom, #fcfcfcc2, #ffffff5a);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline-content:hover {
+  transform: translate(0px, -10px);
 }
 
 .timeline-date {
