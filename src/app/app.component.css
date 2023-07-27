@@ -534,26 +534,26 @@ img:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 38px;
+  margin-top: 3%;
 }
 
 .text-container {
   /* Your existing styles for .text-container go here */
-  width:700px;
-  margin-left: 250px
+  width:50%;
+  margin-left: 17%
 }
 
 .image-container {
-  margin-top: 145px;
-  margin-right:280px
+  margin-top: 9%;
+  margin-right:17%
   /* Your existing styles for .image-container go here */
 }
 
 .typed-container {
   text-align: center;
   padding: 10px 0;
-  margin-left:250px;
-  margin-right:287px
+  margin-left:17%;
+  margin-right:20%;
 }
 
 .typed-out {
